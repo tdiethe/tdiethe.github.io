@@ -41,11 +41,7 @@ Work experience
 
 Publications
 ======
-  <!-- <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-   -->
-See my <u><a href="https://scholar.google.co.uk/citations?user=oWGk9c8AAAAJ&hl=en">my Google Scholar profile</a>.</u>
+See my [Google Scholar profile](https://scholar.google.co.uk/citations?user=oWGk9c8AAAAJ&hl=en)
 
 Talks
 ======
