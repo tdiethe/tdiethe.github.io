@@ -11,11 +11,13 @@ author_profile: true
 
 {% include base_path %}
 
+To appear shortly
+
 <!-- {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
 
-Books
+<!-- Books
 ------------------------
 
 {% bibliography --file books %}
@@ -46,4 +48,4 @@ Tech Reports
 -----
 
 {% bibliography --file techreports %}
-
+ -->

@@ -260,7 +260,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-scholar
+  # - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -308,7 +308,7 @@ compress_html:
 
 github: [metadata]
 
-scholar:
-  style: apa
-  sort_by: year,month
-  order: descending
+# scholar:
+#   style: apa
+#   sort_by: year,month
+#   order: descending
