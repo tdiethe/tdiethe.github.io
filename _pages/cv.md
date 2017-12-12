@@ -41,10 +41,12 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+   -->
+See my <u><a href="https://scholar.google.co.uk/citations?user=oWGk9c8AAAAJ&hl=en">my Google Scholar profile</a>.</u>
+
 Talks
 ======
   <ul>{% for post in site.talks %}
