@@ -17,35 +17,3 @@ To appear shortly
   {% include archive-single.html %}
 {% endfor %} -->
 
-<!-- Books
-------------------------
-
-{% bibliography --file books %}
-
-Book Chapters
---------------------
-
-{% bibliography --file bookchapters %}
-
-Theses
------
-
-{% bibliography --file theses %}
-
-
-Journals
------
-
-{% bibliography --file journals %}
-
-Conferences
------
-
-{% bibliography --file conferences %}
-
-
-Tech Reports
------
-
-{% bibliography --file techreports %}
- -->
