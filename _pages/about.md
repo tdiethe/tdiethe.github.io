@@ -17,7 +17,7 @@ Our video accompanying the paper “Releasing eHealth Analytics into the Wild: L
 
 <br/>
 
-Dr Tom Diethe is an Applied Science Manager in the Core Machine Learning group of Amazon Research Cambridge. Tom is also an Honorary Resarch Fellow at the University of Bristol.
+Dr Tom Diethe is an Applied Science Manager in Amazon Research, Cambridge UK. Tom is also an Honorary Research Fellow at the University of Bristol.
 
 Tom was formerly a Research Fellow for the £15 million [SPHERE](http://www.irc-sphere.ac.uk) Interdisciplinary Research Collaboration (IRC) at the University of Bristol, which is designing a platform for eHealth in a smart-home context. This platform is currently being deployed into homes throughout Bristol. You may have seen the [SPHERE House](http://theinstitute.ieee.org/technology-topics/smart-technology/the-sphere-house-can-monitor-its-residents-health) featured on the BBC's 'Joy of Data' documentary or in the wonderful [Aardman animated overview of the project](http://www.aardman.com/work/sphere-project/).
 
