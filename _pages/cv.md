@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+Affiliations
+======
+
+* Fellow of the Royal Statistical Society
+* IEEE Signal Processing Society
+
 Education
 ======
 
@@ -76,7 +82,13 @@ Referee for Journals: Journal of Machine Learning Research · Machine Learning J
 
 Referee for Conferences Neural Information Processing Systems (NIPS) · Artificial Intelligence and Statistics (AISTATS) · European Conference of Machine Learning (ECML-PKDD) · Knowledge Discovery in Databases (KDD) · International Conference on Neural Information Processing (ICONIP) · International Conference on Learning Representations (ICLR) · International Joint Conference on Artificial Intelligence (IJCAI) · International Workshop on Machine learning, Optimization and big Data (MOD)
 
-Awards
-=====
-- 11/2006: Award for best project for the MSc Intelligent Systems 2005-2006
-- 02/2004: QinetiQ Future Systems Technology (FST) division “Star Award” for outstanding achievement
+Professional Training and Awards
+======
+* Certified for Human Research (Data or Specimens Only Resarch) by the Collaborative Institution Training Initiative
+* 11/2016: An introduction to Open Research (University of Bristol training)
+* 10/2016: Personal Tutoring (University of Bristol training)
+* 06/2016: Lecturing (University of Bristol training)
+* 06/2016: Teaching (University of Bristol training)
+* 01/2015: National Institute for Health Research (NIHR) Good Clinical Practice (GCP)
+* 11/2006: Award for best project for the MSc Intelligent Systems 2005-2006
+* 02/2004: QinetiQ Future Systems Technology (FST) division “Star Award” for outstanding achievement
