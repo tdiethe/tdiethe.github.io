@@ -78,9 +78,11 @@ Workshop Organisation
 Academic Duties
 ======
 
-Referee for Journals: Journal of Machine Learning Research · Machine Learning Journal · Neural Networks · Psychological Review · Pattern Analysis and Applications · Neural Computing and Applications · IEEE Transactions on Neural Networks and Learning Systems · IEEE Signal Processing · IEEE Transactions on Pattern Analysis and Machine Intelligence · Transactions on Image Processing · EURASIP Journal on Advances in Signal Processing · Signal Image and Video Processing · Pattern Recognition Letters.
+Referee for Funding Councils: Engineering and Physical Sciences Research Council (EPSRC), UK; Czech Science Foundation; Israel Science Foundation; Singapore National Research Foundation
 
-Referee for Conferences Neural Information Processing Systems (NIPS) · Artificial Intelligence and Statistics (AISTATS) · European Conference of Machine Learning (ECML-PKDD) · Knowledge Discovery in Databases (KDD) · International Conference on Neural Information Processing (ICONIP) · International Conference on Learning Representations (ICLR) · International Joint Conference on Artificial Intelligence (IJCAI) · International Workshop on Machine learning, Optimization and big Data (MOD)
+Referee for Journals: Journal of Machine Learning Research · Machine Learning Journal · Neural Networks · Psychological Review · Pattern Analysis and Applications · Neural Computing and Applications · IEEE Transactions on Neural Networks and Learning Systems · IEEE Signal Processing · IEEE Transactions on Pattern Analysis and Machine Intelligence · Transactions on Image Processing · EURASIP Journal on Advances in Signal Processing · Signal Image and Video Processing · Pattern Recognition Letters · Elsevier Signal Processing (SIGPRO) · MDPI Sensors
+
+Referee for Conferences Neural Information Processing Systems (NeurIPS) · Artificial Intelligence and Statistics (AISTATS) · European Conference of Machine Learning (ECML-PKDD) · Knowledge Discovery in Databases (KDD) · International Conference on Neural Information Processing (ICONIP) · International Conference on Learning Representations (ICLR) · International Joint Conference on Artificial Intelligence (IJCAI) · Uncertainty in Artificial Intelligence (UAI) · International Workshop on Machine learning, Optimization and big Data (MOD)
 
 Professional Training and Awards
 ======
