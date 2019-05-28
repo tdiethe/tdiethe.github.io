@@ -86,7 +86,7 @@ Referee for Conferences Neural Information Processing Systems (NeurIPS) · Artif
 
 Professional Training and Awards
 ======
-* 03/2019: Certified for Human Research (Data or Specimens Only Resarch) by the Collaborative Institution Training Initiative
+* 03/2019: Certified for Human Research (Data or Specimens Only Research) by the Collaborative Institution Training Initiative
 * 11/2016: An introduction to Open Research (University of Bristol training)
 * 10/2016: Personal Tutoring (University of Bristol training)
 * 06/2016: Lecturing (University of Bristol training)
