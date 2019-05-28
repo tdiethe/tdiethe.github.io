@@ -11,7 +11,7 @@ author_profile: true
 See my [Google Scholar profile](https://scholar.google.co.uk/citations?user=oWGk9c8AAAAJ&hl=en)
 
 
-{% include scholar.html %}
+<!-- {% include scholar.html %} -->
 
 <!-- {% include base_path %}
 
