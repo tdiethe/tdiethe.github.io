@@ -1,9 +1,9 @@
 ---
 title: "Continual Learning in Practice"
 collection: talks
-type: "Invited talk, NeurIPS meetup hosted by MathWorks Cambridge"
+type: "Invited talk, NeurIPS meetup""
 permalink: /talks/2019-12-11-meetup
-venue: "MathWorks Cambridge"
+venue: "MathWorks"
 date: 2019-12-11
 location: "Cambridge, UK"
 ---
