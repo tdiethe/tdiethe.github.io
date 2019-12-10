@@ -1,7 +1,7 @@
 ---
 title: "Continual Learning in Practice"
 collection: talks
-type: "Invited talk, NeurIPS meetup""
+type: "Invited talk, NeurIPS meetup"
 permalink: /talks/2019-12-11-meetup
 venue: "MathWorks"
 date: 2019-12-11
