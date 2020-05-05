@@ -4,7 +4,7 @@ collection: talks
 type: "Keynote"
 permalink: /talks/2020-02-07-private-nlp
 venue: "Private NLP Workshop, WSDM 2020"
-date: 2020-01-29
+date: 2020-02-07
 location: "Houston, Texas"
 ---
 
