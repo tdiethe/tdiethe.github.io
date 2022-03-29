@@ -26,7 +26,8 @@ Education
 Work experience
 ======
 
-* (2017-present) Applied Science Manager, Core Machine Learning, Amazon Research Cambridge
+* (2020-present) Applied Science Manager, Amazon Seattle
+* (2017-2020) Applied Science Manager, Amazon Cambridge (UK)
 * (2017-present) Honorary Research Fellow, Department of Electrical and Electronic Engineering, University of Bristol
 * (2014-2016) Research Fellow, Department of Electrical and Electronic Engineering, University of Bristol
 * (2013-2014) Researcher, Machine Learning and Perception Group, Microsoft Research Cambridge
