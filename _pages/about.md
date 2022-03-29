@@ -12,11 +12,11 @@ redirect_from:
 
 Dr Tom Diethe is currently an Applied Science Manager in Amazon Research, Seattle, USA. 
 
-* Lead for machine learning on the intersection of the life sciences - genomics, proteomics, computational biology
+* Lead for machine learning on the intersection of the life sciences - Deep Learning, Genomics, Proteomics, Computational Biology, Active Learning
 * Previous teams (Cambridge, UK):
-  * Alexa Shopping: Privacy preserving machine learning (differential privacy)
-  * Supply Chain Optimization Technologies: uncertainty quantification, Gaussian processes for forecasting, probabilistic methods, anomaly detection, outlier detection, time series analysis, clustering
-  * Core machine learning: continual learning, streaming machine learning, online learning
+  * Alexa Shopping: Natural Language Processing, Privacy Preserving Machine Learning, Differential Privacy
+  * Supply Chain Optimization Technologies: Uncertainty Quantification, Bayesian Optimization, Gaussian processes, Anomaly/Outlier Detection, Time Series Analysis, Clustering
+  * Core machine learning: Deep Probabilistic Models, Bayesian Neural Networks, Continual Learning, Streaming/Online Machine Learning
 
 Tom is also an Honorary Research Fellow at the University of Bristol.
 
