@@ -83,12 +83,12 @@ author:
   name             : "Tom Diethe"
   avatar           : "portrait.jpg"
   bio              : "Machine Learning Researcher"
-  location         : "Cambridge, UK"
+  location         : "Seattle, USA"
   employer         : "Amazon"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=tom+diethe"
   googlescholar    : "https://scholar.google.co.uk/citations?user=oWGk9c8AAAAJ&hl=en"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Tom_Diethe"
+  email            : "tdiethe at amazon dot com"
+  researchgate     : "https://www.researchgate.net/profile/Tom_Diethe"
   uri              :
   bitbucket        : "tdiethe"
   codepen          :
