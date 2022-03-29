@@ -13,9 +13,8 @@ See my [Google Scholar profile](https://scholar.google.co.uk/citations?user=oWGk
 
 <!-- {% include scholar.html %} -->
 
-<!-- {% include base_path %}
+<!-- {% include base_path %} -->
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
- -->
+<!-- {% for post in site.publications reversed %} -->
+<!--  {% include archive-single.html %} -->
+<!-- {% endfor %} -->
