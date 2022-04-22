@@ -10,6 +10,8 @@ redirect_from:
 
 <!-- Tom Diethe was born in London, UK, in 1977. He received a B.Sc. in Experimental Psychology from the University of Bristol in 2000, then taking up an industrial research position at QinetiQ, where in 2004 he received the Future Systems Technology division “Star Award” for outstanding achievement. In 2005 he received an M.Sc. with distinction and best project award in Intelligent Systems, and then in 2010 received a Ph.D. in machine learning applied to multivariate signal processing, both from University College London. After two post-doctoral positions in the departments of Computer Science and Statistical Science at UCL, he has since worked for the British Medical Journal and Microsoft Research Cambridge, before taking up a position as a Research Fellow for the SPHERE IRC at the Department of Electrical Engineering of the University of Bristol. His current research interests include probabilistic machine learning, computational statistics, learning theory, and data fusion. -->
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6923069099262541824" height="1009" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 Dr Tom Diethe is currently an Applied Science Manager in Amazon Research, Seattle, USA. 
 
 * Lead for machine learning on the intersection of the life sciences - Deep Learning, Genomics, Proteomics, Computational Biology, Active Learning
