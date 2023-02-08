@@ -12,8 +12,7 @@ redirect_from:
 
 <!-- <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6923069099262541824" height="1009" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> -->
 
-Dr Tom Diethe is currently the Head of Machine Learning (Senior Director) at AstraZeneca, Cambridge UK. 
-* Updates coming soon!
+Dr Tom Diethe is currently the Head of Machine Learning (Senior Director) at AstraZeneca, Cambridge UK. Tom is a member of the Center for AI within Data Sciences & AI, BioPharmaceuticals R&D. The team's mission is to devise innovative products and solutions using machine learning algorithms that will make the drug discovery pipeline more efficient and aid in a better understanding of biology and medicinal chemistry.
 
 Tom is also an Honorary Research Fellow at the University of Bristol.
 
