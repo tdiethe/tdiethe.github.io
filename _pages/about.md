@@ -16,6 +16,8 @@ Dr Tom Diethe is currently the Head of Machine Learning (Senior Director) at Ast
 
 Tom is also an Honorary Research Fellow at the University of Bristol.
 
+***
+
 Tom was previously an Applied Science Manager in Amazon Research, Seattle, USA. 
 
 * Lead for machine learning on the intersection of the life sciences - Deep Learning, Genomics, Proteomics, Computational Biology, Active Learning
