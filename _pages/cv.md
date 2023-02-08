@@ -26,7 +26,8 @@ Education
 Work experience
 ======
 
-* (2020-present) Applied Science Manager, Amazon Seattle
+* (2023-present) Head of Machine Learning (Senior Director), AstraZeneca UK
+* (2020-2023) Applied Science Manager, Amazon Seattle
 * (2017-2020) Applied Science Manager, Amazon Cambridge (UK)
 * (2017-present) Honorary Research Fellow, Department of Electrical and Electronic Engineering, University of Bristol
 * (2014-2016) Research Fellow, Department of Electrical and Electronic Engineering, University of Bristol
