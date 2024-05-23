@@ -3,8 +3,8 @@ title: "Artificial Intelligence and Machine Learning Across the Entire Drug Deve
 collection: talks
 type: "Invited Talk"
 permalink: /talks/2023-12-10-neurips-expo
-venue: "NeurIPS EXPO 2024"
-date: 2024-12-10
+venue: "NeurIPS EXPO 2023"
+date: 2023-12-10
 location: "New Orleans, USA"
 ---
 
