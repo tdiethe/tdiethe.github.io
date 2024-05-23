@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning for Protein Design: Antibodies and Biologics"
 collection: talks
-type: "NeurIPS EXPO"
+type: "Invited Talk"
 permalink: /talks/2023-09-20-ml-proteins-ecml
 venue: "ECML-PKDD 2023"
 date: 2023-10-20
