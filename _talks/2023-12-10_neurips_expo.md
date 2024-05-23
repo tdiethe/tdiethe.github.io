@@ -2,10 +2,10 @@
 title: "Artificial Intelligence and Machine Learning Across the Entire Drug Development Pipeline"
 collection: talks
 type: "NeurIPS EXPO"
-permalink: /talks/2020-04-29-continual-ai
-venue: "NeurIPS 2024, New Orleans"
+permalink: /talks/2023-12-10_neurips_expo
+venue: "NeurIPS 2024
 date: 2024-12-10
-location: "Everywhere"
+location: "New Orleans, USA"
 ---
 
 [Slides and Video here](https://neurips.cc/Expo/Conferences/2023/talk%20panel/78239#collapseExample)
