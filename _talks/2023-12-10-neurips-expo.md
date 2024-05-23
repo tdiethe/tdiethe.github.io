@@ -2,7 +2,7 @@
 title: "Artificial Intelligence and Machine Learning Across the Entire Drug Development Pipeline"
 collection: talks
 type: "Invited Talk"
-permalink: /talks/2023-12-10_neurips_expo
+permalink: /talks/2023-12-10-neurips-expo
 venue: "NeurIPS EXPO 2024"
 date: 2024-12-10
 location: "New Orleans, USA"
