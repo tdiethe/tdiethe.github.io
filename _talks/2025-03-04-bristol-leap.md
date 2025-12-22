@@ -8,7 +8,7 @@ date: 2025-03-04
 location: "Bristol, UK"
 ---
 
-[Slides here](https://www.slideshare.net/slideshow/innovations-in-digital-health-exploring-advanced-biomarkers-and-ai-technologies/276355284)
+[Video](https://www.youtube.com/watch?v=QDnyjvjYp9o) and [Slides](https://www.slideshare.net/slideshow/innovations-in-digital-health-exploring-advanced-biomarkers-and-ai-technologies/276355284)
 
 At AstraZeneca we harness data and technology to maximise time for the discovery and delivery of potential new medicines. Data science and artificial intelligence (AI) are embedded across our R&D to enable our scientists to push the boundaries of science to deliver life-changing medicines.
 
