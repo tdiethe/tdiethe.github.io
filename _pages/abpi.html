@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI in Drug Discovery – Talk Flashcards</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #0f1923;
+    color: #e8edf2;
+    min-height: 100vh;
+    padding: 24px 16px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #7eb8d4;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 18px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .card {
+    background: #1a2535;
+    border-radius: 12px;
+    border-left: 4px solid #2e6fa3;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  }
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .slide-num {
+    background: #2e6fa3;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 2px 8px;
+    white-space: nowrap;
+    letter-spacing: 0.05em;
+  }
+  .card-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #c8dcea;
+    line-height: 1.3;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .tag-intro   { background: #1d3d55; color: #7eb8d4; }
+  .tag-context { background: #2a2040; color: #a98fd4; }
+  .tag-case    { background: #1f3d2a; color: #7acf96; }
+  .tag-tech    { background: #3d2a1f; color: #d4a07a; }
+  .tag-partner { background: #3d1f2a; color: #d47aa0; }
+  .tag-close   { background: #1f3040; color: #7ab4d4; }
+
+.bullets {
+list-style: none;
+padding: 0;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.bullets li {
+font-size: 0.83rem;
+color: #b0c4d4;
+padding-left: 14px;
+position: relative;
+line-height: 1.45;
+}
+.bullets li::before {
+content: ‘▸’;
+position: absolute;
+left: 0;
+color: #3e7fad;
+font-size: 0.7rem;
+top: 2px;
+}
+.cue {
+background: #0f2030;
+border-radius: 8px;
+padding: 9px 12px;
+font-size: 0.78rem;
+color: #9bbdd4;
+line-height: 1.5;
+border-top: 1px solid #1e3a55;
+}
+.cue-label {
+font-size: 0.65rem;
+font-weight: 700;
+color: #4a8fc0;
+text-transform: uppercase;
+letter-spacing: 0.07em;
+display: block;
+margin-bottom: 4px;
+}
+.stat {
+display: inline-block;
+font-weight: 700;
+color: #f0c060;
+}
+</style>
+
+</head>
+<body>
+<h1>AI in Drug Discovery · ABPI 2026 · Talk Flashcards</h1>
+<div class="grid">
+
+  <!-- SLIDE 1 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 1</span>
+      <span class="card-title">Title / Opening</span>
+      <span class="tag tag-intro">Intro</span>
+    </div>
+    <ul class="bullets">
+      <li>Tom Diethe, Head of Centre for AI, DS&amp;AI, Biopharma R&amp;D, AstraZeneca</li>
+      <li>Joint Innovate UK – ABPI AI in Medicines Discovery Symposium, 19 March 2026</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Opening line</span>
+      Thank the organisers. Frame the day: global leaders, panels, use cases — emphasis on partnerships. Preview: AZ R&amp;D strategy → real-world use cases → our partnership approach.
+    </div>
+  </div>
+
+  <!-- SLIDE 3 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 3</span>
+      <span class="card-title">AZ Disease Focus Areas</span>
+      <span class="tag tag-context">Context</span>
+    </div>
+    <ul class="bullets">
+      <li><strong>Oncology</strong> — redefining cancer care</li>
+      <li><strong>BioPharmaceuticals</strong> — CVRM, Respiratory &amp; Immunology, Vaccines, Neuroscience</li>
+      <li><strong>Rare Disease</strong> — devastating conditions across multiple TAs</li>
+      <li>Three orgs work independently <em>and</em> together, end-to-end visibility</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Key point</span>
+      Unified purpose, independent execution. Organisational framework lets us see the full pipeline — strategy aligns across all three.
+    </div>
+  </div>
+
+  <!-- SLIDE 4 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 4</span>
+      <span class="card-title">Transformative Technologies</span>
+      <span class="tag tag-tech">Technology</span>
+    </div>
+    <ul class="bullets">
+      <li><strong>ADC &amp; radioconjugates</strong> — replace systemic chemo/radiotherapy</li>
+      <li><strong>Cell therapy &amp; T-cell engagers</strong> — scalable, across TAs</li>
+      <li><strong>Gene therapy &amp; editing</strong> — cure as possibility for rare diseases</li>
+      <li><strong>Next-gen IO bispecifics</strong> — beyond PD-1/PD-L1 inhibitors</li>
+      <li><strong>Weight management</strong> — novel paradigm beyond weight loss alone</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Narrative</span>
+      Go beyond small molecules and mAbs. Combining chemistry skills with specialised external technologies. Diversity in early pipeline reflects strategic intent.
+    </div>
+  </div>
+
+  <!-- SLIDE 5 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 5</span>
+      <span class="card-title">Modalities Video</span>
+      <span class="tag tag-tech">Technology</span>
+    </div>
+    <ul class="bullets">
+      <li>Video slide — plays in presentation mode</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Presenter note</span>
+      Let the video run. Be ready to speak into it if it doesn't autoplay. Brief bridge into the data/AI strategy that follows.
+    </div>
+  </div>
+
+  <!-- SLIDE 6 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 6</span>
+      <span class="card-title">Multimodal Data &amp; Agentic Framework</span>
+      <span class="tag tag-tech">Technology</span>
+    </div>
+    <ul class="bullets">
+      <li>Data sources: ctDNA, proteomics, pathology, imaging, multi-omics, clinical data, patient outcomes</li>
+      <li>AZ-developed <strong>Foundation Models (FMs)</strong> + specialised external FMs</li>
+      <li><strong>Agentic framework</strong>: autonomously navigate research, adjust experiments in real time</li>
+      <li>Largest multimodal oncology FM — co-developed with <strong>Tempus &amp; Pathos</strong></li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Key message</span>
+      Connected data first — broke silos, built AI-ready ecosystem. Data ecosystem is the engine. FMs and agentic AI are the frontier.
+    </div>
+  </div>
+
+  <!-- SLIDE 7 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 7</span>
+      <span class="card-title">Case Studies — Signpost</span>
+      <span class="tag tag-case">Case Study</span>
+    </div>
+    <ul class="bullets">
+      <li>Three case study pillars: <strong>1 Patient Selection</strong> · <strong>2 Search</strong> · <strong>3 Design</strong></li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Transition</span>
+      Bridge slide — signal to audience you're moving into concrete examples. "Let me walk you through three real-world cases."
+    </div>
+  </div>
+
+  <!-- SLIDE 8 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 8</span>
+      <span class="card-title">MILTON — Early Disease Detection</span>
+      <span class="tag tag-case">Case Study 1</span>
+    </div>
+    <ul class="bullets">
+      <li>Tool: <strong>MILTON</strong> — developed by Centre for Genomics Research</li>
+      <li>Combines genomic data + clinical biomarkers to detect early disease signals</li>
+      <li>Trained on <span class="stat">500k UK Biobank</span> participants</li>
+      <li>Detects <span class="stat">1,000+ diseases</span> up to <span class="stat">10–15 years</span> before clinical diagnosis</li>
+      <li>Recognised by <strong>World Economic Forum</strong> as one of six transformative AI healthcare applications</li>
+      <li>Portal freely accessible — used in <span class="stat">95 countries</span></li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Talking points</span>
+      Early detection historically reliant on late-stage symptoms. AZ funded exome sequencing + WGS of all 500k UK Biobank participants (~£200M project). Open science commitment — portal publicly accessible.
+    </div>
+  </div>
+
+  <!-- SLIDE 10 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 10</span>
+      <span class="card-title">AI in Biologics Discovery</span>
+      <span class="tag tag-case">Case Study 2b</span>
+    </div>
+    <ul class="bullets">
+      <li>Shift from wet-lab DMTA cycle → in silico augmented workflows</li>
+      <li>New biologics leads identified in <strong>weeks not months</strong></li>
+      <li><span class="stat">10× improvement</span> in antibody binding affinity demonstrated</li>
+      <li><span class="stat">100%</span> of biologics discovery pipeline is AI-assisted</li>
+      <li>InSide software for developability / CMC readiness screening</li>
+      <li>Increasing complexity (ADCs, multispecifics, cell therapies) plays to AI's strengths</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Differentiator</span>
+      Data is the moat — decades of protein engineering data + deep screening platform. Scale → signal. Models learn from richer, more representative biology.
+    </div>
+  </div>
+
+  <!-- SLIDE 11 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 11</span>
+      <span class="card-title">Antibody–Antigen: Technical Primer</span>
+      <span class="tag tag-tech">Technical</span>
+    </div>
+    <ul class="bullets">
+      <li>Epitope (antigen side) ↔ Paratope (antibody CDR loops) — ML predicts both</li>
+      <li>Physics-based docking <em>augmented</em> by ML (docking alone not sufficient — CAPRI results)</li>
+      <li>End-to-end complex prediction (epitope-paratope) — promising direction</li>
+      <li>In-silico developability assays</li>
+      <li>ML-assisted DNA libraries for smarter experimental design</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Story to tell</span>
+      Multi-pronged approach. Deep collaboration with external KOLs (Segway etc.) — significant knowledge transfer accelerates in-house capability building. Pilots evaluating external partner claims rigorously.
+    </div>
+  </div>
+
+  <!-- SLIDE 12 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 12</span>
+      <span class="card-title">Design–Build–Test–Learn Cycle</span>
+      <span class="tag tag-tech">Technical</span>
+    </div>
+    <ul class="bullets">
+      <li>Iterative cycle: <strong>Design → Build → Test → Learn</strong></li>
+      <li>ML models update with each cycle; variant library expands</li>
+      <li>In silico screening sits inside the loop, reducing wet-lab burden</li>
+      <li>Affinity scores feed back to update models continuously</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Visual cue</span>
+      Robot graphic illustrates automation. Emphasise the flywheel: better data → better models → better designs → more data.
+    </div>
+  </div>
+
+  <!-- SLIDE 13 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 13</span>
+      <span class="card-title">Multi-Objective ML for Biologics</span>
+      <span class="tag tag-tech">Technical</span>
+    </div>
+    <ul class="bullets">
+      <li>Inputs: amino acid sequence, structure, chemical/physical/knowledge features</li>
+      <li><strong>Pharmacology targets</strong>: binding affinity, specificity, species cross-reactivity</li>
+      <li><strong>Developability targets</strong>: sequence liabilities, stability, yield, immunogenicity</li>
+      <li>Generative AI proposes new sequences for library design (the "D" of DBTL)</li>
+      <li>Truly multi-task: predict AND generate</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Key framing</span>
+      Not a single-objective problem — simultaneous optimisation across pharmacology and developability axes. Generative models close the loop.
+    </div>
+  </div>
+
+  <!-- SLIDE 14 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 14</span>
+      <span class="card-title">QCS — Computational Pathology</span>
+      <span class="tag tag-case">Case Study 3</span>
+    </div>
+    <ul class="bullets">
+      <li>Tool: <strong>QCS (Quantitative Continuous Scoring)</strong> — proprietary AI pathology solution</li>
+      <li>Replaces subjective manual tumour biopsy analysis</li>
+      <li>Identifies patients most likely to respond to ADCs (TROP2 NMR biomarker)</li>
+      <li><span class="stat">43% reduction</span> in risk of disease progression or death (TROPION-Lung01)</li>
+      <li><span class="stat">FDA Breakthrough Device Designation</span> for VENTANA® — first AI-driven computational pathology class 3 device</li>
+      <li>First ever AI-driven companion diagnostic approval candidate</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Hook</span>
+      Every tumour is unique. Previous manual analysis: subjective, limited to human eye. Earlier breast cancer use: identified 20–40% more likely responders vs manual. New era of precision medicine.
+    </div>
+  </div>
+
+  <!-- SLIDE 15 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 15</span>
+      <span class="card-title">AZ as Partner of Choice (UK)</span>
+      <span class="tag tag-partner">Partnerships</span>
+    </div>
+    <ul class="bullets">
+      <li><span class="stat">950+</span> partnerships in 2024</li>
+      <li><span class="stat">850</span> academic partnerships</li>
+      <li><span class="stat">70+</span> NHS collaborations</li>
+      <li><span class="stat">30+</span> industrial collaborations</li>
+      <li>Pascal Soriot co-chairs UK Life Sciences Council with government ministers</li>
+      <li>Partner in Life Sciences Industrial Strategy &amp; Life Sciences Vision</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Framing</span>
+      Permeable research environment — scientists share ideas freely. Joint work: precision medicine, genomics, NHS pathways. ~90% of clinical pipeline uses precision medicine approaches.
+    </div>
+  </div>
+
+  <!-- SLIDE 16 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 16</span>
+      <span class="card-title">AI Innovation Ecosystem</span>
+      <span class="tag tag-partner">Partnerships</span>
+    </div>
+    <ul class="bullets">
+      <li>Three partner types: <strong>Specialised AI companies</strong> · <strong>Academia</strong> · <strong>Hyperscalers</strong></li>
+      <li>Key differentiator: decades of clinical trial data — but data alone isn't enough</li>
+      <li>We invent in-house <em>and</em> co-create with partners</li>
+      <li>Agile — evolving with the AI landscape in real time</li>
+      <li>Bringing industry &amp; regulators together to set standards</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Key message</span>
+      Breakthroughs don't happen in isolation. Combine expertise across disciplines previously not associated with Pharma. Partners expand talent, speed decisions, accelerate pipeline.
+    </div>
+  </div>
+
+  <!-- SLIDE 17 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 17</span>
+      <span class="card-title">Responsible AI</span>
+      <span class="tag tag-close">Closing</span>
+    </div>
+    <ul class="bullets">
+      <li>Human-centric AI with human oversight</li>
+      <li>First industry framework in <strong>ethical AI</strong></li>
+      <li>Developing <strong>explainable AI</strong> — models that justify their outputs</li>
+      <li>Building skills for the <strong>workforce of the future</strong></li>
+      <li>Data standards, ethics, transparency as foundations</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Key message</span>
+      Right culture + data foundation + people = trustworthy adoption. Legacy system integration = opportunity to rethink workflows from ground up. Explainability and validation frameworks are non-negotiable.
+    </div>
+  </div>
+
+  <!-- SLIDE 18 -->
+
+  <div class="card">
+    <div class="card-header">
+      <span class="slide-num">SLIDE 18</span>
+      <span class="card-title">Close / Thank You</span>
+      <span class="tag tag-close">Closing</span>
+    </div>
+    <ul class="bullets">
+      <li>Blank / final slide</li>
+    </ul>
+    <div class="cue">
+      <span class="cue-label">Closing cue</span>
+      Bring it back to the symposium theme: partnership is the mechanism for UK competitiveness. Invite questions. Thank organisers again.
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
