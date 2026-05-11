@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - tdiethe
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - amzn/MXFusion
+  - amzn/milan
+  - amzn/differential-privacy-bayesian-optimization
+  - IRC-SPHERE/sphere-challenge
+  - IRC-SPHERE/HyperStream
